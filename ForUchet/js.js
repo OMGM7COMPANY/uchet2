@@ -30,7 +30,11 @@ function open_snipet(){
             if (flag) {
                 coins = prompt('Пожалуйста введите точное колл. монет в указанной криптовалюте', '');
                 price = prompt('Пожалуйста введите точную Цену монет указанной криптовалюты в Долларах в момент заполнения формы ', '');
-                snipetInformation[mainId] = `${quanity} $ | Колл. Монет: ${coins} | Цена в моменте: ${price} $`;
+                if (mainId == 'USDT'){
+                snipetInformation[mainId] = `${quanity} $`;
+                }else{
+                    snipetInformation[mainId] = `${quanity} $ | Колл. Монет: ${coins} | Цена в моменте: ${price}`;
+                }
             } else{
                 snipetInformation[mainId] = `${quanity} ${currency}`;
             }
