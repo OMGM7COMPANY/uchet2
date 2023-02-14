@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600&display=swap");
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #EBEBEB;
+  font-family: "Montserrat", sans-serif;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.inner_body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.snipet_items {
+  margin-bottom: 30px;
+}
+
+.snipet_button {
+  padding: 10px 19px;
+  font-family: "Montserrat", sans-serif;
+  outline: none;
+  -webkit-transition: 400ms;
+  transition: 400ms;
+  border-radius: 65px;
+  cursor: pointer;
+  border: none;
+}
+
+.snipet_button:hover {
+  -webkit-transition: 250ms;
+  transition: 250ms;
+  -webkit-transform: translateY(-7px);
+          transform: translateY(-7px);
+}
+
+.input_snippets {
+  width: 1006px;
+  height: 248px;
+  background: none;
+  border: 2px dashed #6C6B6B;
+  outline: none;
+  margin-bottom: 30px;
+}
+.input_snippets p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #1c1c1c;
+  font-family: "Montserrat";
+  padding-left: 25px;
+}
+
+.copy_button {
+  font-family: "Montserrat", sans-serif;
+  background: rgba(17, 238, 225, 0.0677083);
+  border: 1px solid rgba(20, 54, 52, 0.781);
+  border-radius: 65px;
+  cursor: pointer;
+  -webkit-transition: 200ms;
+  transition: 200ms;
+  padding: 7px 25px;
+}
+
+.copy_button:hover {
+  -webkit-transition: 250ms;
+  transition: 250ms;
+  -webkit-transform: translateY(-7px);
+          transform: translateY(-7px);
+}
+
+.main_items {
+  background: linear-gradient(116.55deg, #52A7F7 19.48%, rgba(210, 189, 182, 0) 121.19%);
+}
+
+.dolg {
+  background: linear-gradient(127.71deg, #FF0000 -42.26%, rgba(8, 33, 252, 0.5) 141.26%);
+}
+
+.crypto {
+  background: linear-gradient(128.56deg, #0A0A0A -93.9%, #FFCF71 94.86%);
+}
+
+.up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+
+.currency_items {
+  margin-bottom: 25px;
+}
+.currency_items label {
+  font-size: 20px;
+  padding-right: 15px;
+}

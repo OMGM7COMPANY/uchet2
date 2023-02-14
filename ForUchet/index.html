@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Сайт для быстрого учета</title>
+</head>
+<body>
+    
+    <div class="wrapper">
+        <div class="inner_body">
+            <div class="currency_items">
+                <input type="radio" id="contactChoice1"
+                name="currency" value="₽" class="i-7">
+               <label for="contactChoice1" >₽</label>
+           
+               <input type="radio" id="contactChoice2"
+                name="currency" value="$" class="i-7" checked>
+               <label for="contactChoice2">$</label>
+           
+               <input type="radio" id="contactChoice3"
+                name="currency" value="₼" class="i-7">
+               <label for="contactChoice3">₼</label>
+             </div>
+             <div>
+            </div>
+            <div class="snipet_items">
+                <button class="snipet_button main_items"data-main="Карта">Карта</button>
+                <button class="snipet_button main_items"data-main="Наличные">Наличные</button>
+                <button class="snipet_button main_items"data-main="Мелочь">Мелочь</button>
+                <button class="snipet_button dolg" data-dolg="Я должен">Мой долг</button>
+                <button class="snipet_button dolg" data-dolg="Мне в долгу">Долг мне</button>
+                <button class="snipet_button crypto" data-crypto="BTC">BTC</button>
+                <button class="snipet_button crypto"data-crypto="USDT">USDT</button>
+                <button class="snipet_button crypto"data-crypto="Lunc">Lunc</button>
+            </div>
+            <div class="up">
+                <div class="input_snippets"><p></p></div>
+                <button class="copy_button" onclick="copySnipet()">Копировать</button>
+    </div>
+</div>
+    
+<script src="js.js"></script>
+</body>
+</html>
