@@ -29,9 +29,7 @@ function open_snipet(){
             quanity = quanity.replace(/(\d)(?=(\d\d\d)+([^\d]|$))/g, '$1,');
             if (flag) {
                 coins = prompt('Пожалуйста введите точное колл. монет в указанной криптовалюте', '');
-                coins = coins.replace(/(\d)(?=(\d\d\d)+([^\d]|$))/g, '$1,');
                 price = prompt('Пожалуйста введите точную Цену монет указанной криптовалюты в Долларах в момент заполнения формы ', '');
-                price = price.replace(/(\d)(?=(\d\d\d)+([^\d]|$))/g, '$1,');
                 snipetInformation[mainId] = `${quanity} $ | Колл. Монет: ${coins} | Цена в моменте: ${price} $`;
             } else{
                 snipetInformation[mainId] = `${quanity} ${currency}`;
